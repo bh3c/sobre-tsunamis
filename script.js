@@ -32,33 +32,33 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Abalos Sísmicos e Erupções Vulcânicas:?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "A maioria dos tsunamis é gerada por abalos sísmicos no leito oceânico. Quando as placas tectônicas se movem, ocorre uma ruptura na crosta terrestre sob o mar. Isso libera uma enorme quantidade de energia, que desloca a água e cria ondas gigantes",
+               afirmacao: "a movimentação das placas tectonicas podem deformar a corsta terrestre de forma que o atrito pode gerar tsunamis"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "Erupções vulcânicas podem causar tsunamis. Quando um vulcão entra em erupção no oceano, o deslocamento de água resultante pode gerar ondas de grande amplitude.",
+               afirmacao: "As eurupções vulcanicas podem causar diversos desastres naturais assim como os tsunamis",
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: " Impacto direto dos tsunamis:",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "Quando um tsunami atinge a costa, ele traz consigo uma enorme quantidade de água e energia. Isso pode inundar áreas costeiras, incluindo habitats marinhos como recifes de coral, manguezais e estuários.",
+                afirmacao: "È possivel afirmar que o tsunami é prejudiacial ao ser humano e a vida marinha, e ao atingir uma cidade casas podem ser destruidas e o eco sistemo fica bagunçado por um certo preriodo de tempo que pode levar dias ou até meses para se restabilizar."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "A força da água pode destruir corais, algas e outros organismos fixos, causando danos significativos aos ecossistemas marinhos.",
+                afirmacao: "Devido a força gerada pelo tsunami é comum que ele leve consigo tudo em seu caminho vpor tanto o tssunami leva corais e animais marinhos de pequeno porte."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "oque fazer apos um tsunami? ",
         alternativas: [
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
@@ -105,9 +105,9 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Conclusão...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
 
-mostraPergunta();
+mostraPergunta()
