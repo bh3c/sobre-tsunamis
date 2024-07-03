@@ -61,12 +61,12 @@ const perguntas = [
         enunciado: "oque fazer apos um tsunami? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "Avalie os danos e busque assistência:1 Verifique sua propriedade cuidadosamente em busca de danos estruturais ou perigos que possam causar lesões.2 Entre em contato com as autoridades pertinentes para relatar quaisquer danos ou perdas.",
+                afirmacao: "Procure um lugar alto e tente buscar ajuda pelo celular ou faça um sinal de ajuda: exemplo SOS"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "Mantenha-se informado e tome precauções, 1 Aguarde orientações das autoridades locais sobre quando é seguro retornar às áreas afetadas.2 Corte a água, o gás e desligue a eletricidade. Utilize lanternas a pilhas e evite fumar ou acender fósforos",
+                afirmacao: "Tente achar alguma for de comunicação, tentar achar outros sobreviventes para que as chances de sobrevivencia sejam maiores."
             }
         ]
     },
