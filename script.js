@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
                 texto: "A maioria dos tsunamis é causada por terremotos submarinos. quando as aplacas tectonicas se movem abruptamente sobre o oceano elas podem deslocar grandes volumes de agua criando ondas que se propagam em todas as direções. ",
-                afirmacao: "Os tsunamis ocorrem geralmente nas bordas das placas tectonicas. E o oceano pacifico é um grande exemplo disso, onde é um local muito comun de ver esse evento."
+                afirmacao: "Os tsunamis ocorrem geralmente nas bordas das placas tectonicas. E o oceano pacifico é um grande exemplo disso, onde é um local muito comum de ver esse evento."
             },
             {
                 texto: "Além de terremotos, tsunamis podem ser gerados por erupções vulcanicas, delizamento de terras ou impacxto de meteoritos no oceano. Esses eventos pertubam a agua e criam ondas de tmanho variavel que viajam longas distâncias ",
@@ -58,7 +58,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "oque fazer apos um tsunami? ",
+        enunciado: "O que fazer apos um tsunami? ",
         alternativas: [
             {
                 texto: "Avalie os danos e busque assistência:1 Verifique sua propriedade cuidadosamente em busca de danos estruturais ou perigos que possam causar lesões.2 Entre em contato com as autoridades pertinentes para relatar quaisquer danos ou perdas.",
