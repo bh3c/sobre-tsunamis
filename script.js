@@ -49,11 +49,13 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Quando um tsunami atinge a costa, ele traz consigo uma enorme quantidade de água e energia. Isso pode inundar áreas costeiras, incluindo habitats marinhos como recifes de coral, manguezais e estuários.",
-                afirmacao: "È possivel afirmar que o tsunami é prejudiacial ao ser humano e a vida marinha, e ao atingir uma cidade casas podem ser destruidas e o eco sistemo fica bagunçado por um certo preriodo de tempo que pode levar dias ou até meses para se restabilizar."
+                afirmacao: "È possivel afirmar que o tsunami é prejudiacial ao ser humano e a vida marinha, e ao atingir uma cidade casas podem ser destruidas e o eco sistemo fica bagunçado por um certo preriodo de tempo que pode levar dias ou até meses para se restabilizar.",
+                afirmacao: "Os tsunamis são prejudiciais tanto quanto para o ser humano quanto para a vida marinha pois ao atingir cidades pode causar grandes destruição"
             },
             {
                 texto: "A força da água pode destruir corais, algas e outros organismos fixos, causando danos significativos aos ecossistemas marinhos.",
-                afirmacao: "Devido a força gerada pelo tsunami é comum que ele leve consigo tudo em seu caminho vpor tanto o tssunami leva corais e animais marinhos de pequeno porte."
+                afirmacao: "Devido a força gerada pelo tsunami é comum que ele leve consigo tudo em seu caminho por tanto o tsunami leva corais e animais marinhos de pequeno porte.",
+                afirmacao: "Com isso dito posso fazer uma segunda afirmação que se o tsunami causar uma grande destruição no eco sistema marinho, pode ocorrer a entrada em estinção de algumas especies" 
             }
         ]
     },
