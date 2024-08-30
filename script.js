@@ -3,6 +3,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
+const botaojogarnovamente = document.querySelector(".novamente-btn");
 
 const perguntas = [
     {
@@ -110,6 +111,23 @@ function mostraResultado() {
     caixaPerguntas.textContent = "Conclusão...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
+    caixaResultado.classList.add("mostrar");
+    botaojogarnovamente.addEventListener("clique", jogaNavamente);
 }
 
-mostraPergunta()
+function jogaNavamente(){
+    atual = 0;
+    historiaFinal = "";
+    caixaResultado.classList.remove("mostrar");
+    mostraPergunta();
+}
+mostraPergunta();
+
+
+function substituiNome() {
+    for (const pergunta of perguntas) {
+        pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
+}
+
+substituiNome();
